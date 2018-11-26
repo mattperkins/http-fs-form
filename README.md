@@ -5,7 +5,7 @@
 ## yarn start 
 
 # ENDPOINTS 
-## localhost: 
+## localhost: 3003
 
 # DEPLOY 
 ## yarn build
