@@ -1,0 +1,9 @@
+{
+  "name": "http-fs-form",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
