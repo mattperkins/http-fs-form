@@ -20,6 +20,7 @@ const server = http.createServer((req, res) => {
     fs.writeFileSync('message.txt', '...')
     res.statusCode = 302
     res.setHeader('Location', '/')
+    return res.end()
   }
   res.setHeader('Content-type', 'text/html')
   res.write('<html>')
