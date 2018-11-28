@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     res.write('<button type="submit">Send</button>')
     res.write('</form></body>')
     res.write('</html>')
-    res.end()
+    return res.end()
   }
   res.setHeader('Content-type', 'text/html')
   res.write('<html>')
